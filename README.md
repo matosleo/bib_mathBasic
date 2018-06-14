@@ -7,7 +7,7 @@
 ## Como compilar
 No terminal, digite: 
 ```bash
-$ make {nome do S.O}
+$ make {nome_do_SO}
 ```
 ## Sistemas disponíveis
 * Linux
