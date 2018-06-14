@@ -80,4 +80,4 @@ doc:
 # Alvo (target) usado para limpar os arquivos temporarios (objeto)
 # gerados durante a compilacao, assim como os arquivos binarios/executaveis.
 clean:
-	$(RM) $(OBJ)/*
+	$(RM) $(LIB)/* $(OBJ)/*
