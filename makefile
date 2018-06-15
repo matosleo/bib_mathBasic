@@ -39,10 +39,10 @@ mathbasic.so: $(SRC)/funcoes1.cpp $(INC)/mathbasic.h
 	@echo "+++ [Biblioteca dinâmica criada em $(LIB)/$@] +++"
 
 prog_estatico:
-	$(CC) $(CPPFLAGS) $(SRC)/main.cpp $(LIB)/mathbasic.a -o $(OBJ)/$@
+	$(CC) $(CPPFLAGS) $(SRC)/main.cpp $(LIB)/mathbasic.a -o $(BIN)/$@
 
 prog_dinamico:
-	$(CC) $(CPPFLAGS) $(SRC)/main.cpp $(LIB)/mathbasic.so -o $(OBJ)/$@
+	$(CC) $(CPPFLAGS) $(SRC)/main.cpp $(LIB)/mathbasic.so -o $(BIN)/$@
 
 # Windows
 
@@ -80,4 +80,4 @@ doc:
 # Alvo (target) usado para limpar os arquivos temporarios (objeto)
 # gerados durante a compilacao, assim como os arquivos binarios/executaveis.
 clean:
-	$(RM) $(LIB)/* $(OBJ)/*
+	$(RM) $(LIB)/* $(OBJ)/* $(BIN)/*
