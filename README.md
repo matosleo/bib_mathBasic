@@ -1,5 +1,5 @@
-# Biblioteca mathbasic - Programa 1   :computer:
-*Criação de bibliotecas*
+# Laboratório 6 - Programa 1   :computer:
+*Namespaces e Bibliotecas*
 
 * :bust_in_silhouette: _Aluno: **Leonardo dos Santos Matos**
 * :pencil:  _Matrícula: **20160143879**
@@ -18,12 +18,12 @@ O makefile está configurado para compilar com todas as flags de warnings
 ## Como executar
 No terminal, digite:
 ```bash
-$ ./build/prog_estatico
+$ ./bin/prog_estatico
 ```
 ou 
 
 ```bash
-$ ./build/prog_dinamico
+$ ./bin/prog_dinamico
 ```
 
 ## Dificuldades
