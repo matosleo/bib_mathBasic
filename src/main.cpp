@@ -1,3 +1,13 @@
+/**
+* @file     main.cpp
+* @brief    Implementação da função main, principal do programa
+* @author   Leonardo Matos (matos_leo95@live.com)
+* @since    17/06/2018
+* @date	    18/06/2018
+* @sa      https://github.com/matosleo/labs6-prog1
+*/
+
+
 #include <iostream>
 #include "mathbasic.h"
 #include <string>

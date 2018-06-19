@@ -1,3 +1,12 @@
+/**
+* @file     mathbasic.h
+* @brief    Declaração da biblioteca mathbasic
+* @author   Leonardo Matos (matos_leo95@live.com)
+* @since    17/06/2018
+* @date	    18/06/2018
+* @sa      https://github.com/matosleo/labs6-prog1
+*/
+
 #ifndef MATHBASIC_H
 #define MATHBASIC_H
 
